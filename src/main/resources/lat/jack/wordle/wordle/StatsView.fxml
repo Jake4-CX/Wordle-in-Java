@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="520.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="lat.jack.wordle.wordle.Controllers.StatsView">
+   <children>
+      <AnchorPane prefHeight="820.0" prefWidth="520.0">
+         <children>
+            <AnchorPane layoutX="24.0" layoutY="83.0" prefHeight="185.0" prefWidth="473.0">
+               <children>
+                  <Label layoutX="188.0" layoutY="14.0" text="STATISTICS">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER" layoutX="19.0" layoutY="50.0" prefHeight="100.0" prefWidth="436.0" spacing="15.0">
+                     <children>
+                        <AnchorPane>
+                           <children>
+                              <Text fx:id="PlayedText" layoutX="-1.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" wrappingWidth="60.0">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Text>
+                              <Label alignment="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="30.0" prefWidth="60.0" text="Played" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font></Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane>
+                           <children>
+                              <Text fx:id="WinText" layoutX="-1.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="100" textAlignment="CENTER" wrappingWidth="60.0">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Text>
+                              <Label alignment="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="30.0" prefWidth="60.0" text="Win %" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane>
+                           <children>
+                              <Text fx:id="CurrentText" layoutX="-1.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" textAlignment="CENTER" wrappingWidth="60.0">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Text>
+                              <Label alignment="CENTER" ellipsisString="" layoutX="1.0" layoutY="50.0" prefHeight="50.0" prefWidth="60.0" text="Current Streak" textAlignment="CENTER" wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane>
+                           <children>
+                              <Text fx:id="MaxText" layoutX="-1.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" textAlignment="CENTER" wrappingWidth="60.0">
+                                 <font>
+                                    <Font size="36.0" />
+                                 </font>
+                              </Text>
+                              <Label alignment="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="50.0" prefWidth="60.0" text="Max Streak" textAlignment="CENTER" wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <Label layoutX="143.0" layoutY="155.0" text="GUESS DISTRIBUTION" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <BarChart fx:id="BarChart" animated="false" layoutX="51.0" layoutY="275.0" prefHeight="300.0" prefWidth="420.0" stylesheets="@style.css">
+              <xAxis>
+                <NumberAxis />
+              </xAxis>
+              <yAxis>
+                <CategoryAxis prefHeight="225.0" prefWidth="16.0" side="LEFT" />
+              </yAxis>
+            </BarChart>
+            <HBox alignment="CENTER" layoutX="50.0" layoutY="575.0" prefHeight="66.0" prefWidth="420.0" spacing="15.0">
+               <children>
+                  <StackPane fx:id="PlayButton" prefHeight="66.0" prefWidth="173.0">
+                     <children>
+                        <ImageView fitHeight="66.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Buttons/Small/Green.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Play" textAlignment="CENTER" wrappingWidth="173.0">
+                           <font>
+                              <Font name="System Bold" size="32.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane fx:id="HomeButton" prefHeight="66.0" prefWidth="173.0">
+                     <children>
+                        <ImageView fitHeight="66.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Buttons/Small/Green.png" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Home" textAlignment="CENTER" wrappingWidth="173.0">
+                           <font>
+                              <Font name="System Bold" size="32.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+               </children>
+            </HBox>
+            <StackPane fx:id="ToasterPane" layoutX="187.0" layoutY="14.0" prefHeight="50.0" prefWidth="148.0">
+               <children>
+                  <ImageView fx:id="ToasterImage" fitHeight="50.0" fitWidth="148.0" pickOnBounds="true" preserveRatio="true" />
+                  <Text fx:id="ToasterText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="148.0">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

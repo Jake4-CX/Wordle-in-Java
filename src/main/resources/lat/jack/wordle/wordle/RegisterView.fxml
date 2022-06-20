@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="520.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="lat.jack.wordle.wordle.Controllers.RegisterView">
+   <children>
+      <AnchorPane prefHeight="820.0" prefWidth="520.0">
+         <children>
+            <TextField fx:id="InputUserName" layoutX="180.0" layoutY="315.0" prefHeight="25.0" prefWidth="240.0" />
+            <PasswordField fx:id="InputUserPass" layoutX="180.0" layoutY="374.0" prefHeight="25.0" prefWidth="240.0" />
+            <Label fx:id="LabelUserName" layoutX="100.0" layoutY="318.0" text="Username: " textAlignment="RIGHT">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="LabelUserPass" layoutX="102.0" layoutY="377.0" text="Password: " textAlignment="RIGHT">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <StackPane fx:id="ButtonRegister" layoutX="174.0" layoutY="425.0" prefHeight="66.0" prefWidth="173.0">
+               <children>
+                  <ImageView fx:id="ButtonRegisterImage" fitHeight="66.0" fitWidth="173.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Assets/Buttons/Small/Green.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="ButtonRegisterText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Register" textAlignment="CENTER" wrappingWidth="173.0">
+                     <font>
+                        <Font name="System Bold" size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+            <StackPane fx:id="ToasterPane" layoutX="186.0" layoutY="87.0" prefHeight="50.0" prefWidth="148.0">
+               <children>
+                  <ImageView fx:id="ToasterImage" fitHeight="50.0" fitWidth="148.0" pickOnBounds="true" preserveRatio="true" />
+                  <Text fx:id="ToasterText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="148.0">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
+         </children>
+      </AnchorPane>
+      <StackPane fx:id="ButtonBack" layoutX="174.0" layoutY="503.0" prefHeight="66.0" prefWidth="173.0">
+         <children>
+            <ImageView fx:id="ButtonBackImage" fitHeight="66.0" fitWidth="173.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Assets/Buttons/Small/Green.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="ButtonBackText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Back" textAlignment="CENTER" wrappingWidth="173.0">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

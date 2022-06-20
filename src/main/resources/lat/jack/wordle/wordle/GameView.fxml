@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="520.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="lat.jack.wordle.wordle.Controllers.GameView">
+   <children>
+      <BorderPane prefHeight="820.0" prefWidth="520.0">
+         <center>
+            <AnchorPane prefHeight="401.0" prefWidth="444.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox fx:id="VBoxGameBoard" prefHeight="341.0" prefWidth="520.0">
+                     <children>
+                        <HBox fx:id="gameRow_0" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                           <children>
+                              <StackPane fx:id="stackPane_0_0" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_0_0" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_0_0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_0_1" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_0_1" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_0_1" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_0_2" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_0_2" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_0_2" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_0_3" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_0_3" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_0_3" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_0_4" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_0_4" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_0_4" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="gameRow_1" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                           <children>
+                              <StackPane fx:id="stackPane_1_0" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_0_01" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_1_0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_1_1" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_1_1" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_1_1" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_1_2" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_1_2" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_1_2" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_1_3" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_1_3" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_1_3" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_1_4" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_1_4" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_1_4" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="gameRow_2" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                           <children>
+                              <StackPane fx:id="stackPane_2_0" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_2_0" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_2_0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_2_1" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_2_1" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_2_1" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_2_2" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_2_2" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_2_2" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_2_3" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_2_3" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_2_3" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_2_4" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_2_4" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_2_4" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="gameRow_3" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                           <children>
+                              <StackPane fx:id="stackPane_3_0" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_3_0" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_3_0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_3_1" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_3_1" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_3_1" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_3_2" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_3_2" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_3_2" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_3_3" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_3_3" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_3_3" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_3_4" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_3_4" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_3_4" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </HBox>
+                        <HBox fx:id="gameRow_4" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                           <children>
+                              <StackPane fx:id="stackPane_4_0" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_4_0" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_4_0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_4_1" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_4_1" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_4_1" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_4_2" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_4_2" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_4_2" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_4_3" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_4_3" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_4_3" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                              <StackPane fx:id="stackPane_4_4" prefHeight="62.0" prefWidth="62.0">
+                                 <children>
+                                    <ImageView fx:id="gameTile_4_4" fitHeight="62.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@Assets/Tiles/Blank.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fx:id="gameTileText_4_4" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="62.0">
+                                       <font>
+                                          <Font name="System Bold" size="40.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </StackPane>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+         </center>
+         <bottom>
+            <AnchorPane fx:id="keyBoard" prefHeight="218.0" prefWidth="520.0" BorderPane.alignment="CENTER">
+               <children>
+                  <StackPane layoutX="22.0" layoutY="21.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_0" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="71.0" layoutY="21.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_1" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_1" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="120.0" layoutY="21.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_2" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_2" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="169.0" layoutY="21.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_3" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_3" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="218.0" layoutY="21.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_4" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_4" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="267.0" layoutY="21.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_5" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_5" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="316.0" layoutY="21.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_6" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_6" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="365.0" layoutY="21.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_7" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_7" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="414.0" layoutY="21.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_8" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_8" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="463.0" layoutY="21.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_9" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_9" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="46.0" layoutY="85.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_10" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_10" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="95.0" layoutY="85.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_11" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_11" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="144.0" layoutY="85.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_12" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_12" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="193.0" layoutY="85.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_13" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_13" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="242.0" layoutY="85.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_14" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_14" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="291.0" layoutY="85.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_15" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_15" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="340.0" layoutY="85.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_16" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_16" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="389.0" layoutY="85.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_17" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_17" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="438.0" layoutY="85.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_18" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_18" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="95.0" layoutY="149.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_19" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_19" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="144.0" layoutY="149.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_20" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_20" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="193.0" layoutY="149.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_21" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_21" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="242.0" layoutY="149.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_22" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_22" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="291.0" layoutY="149.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_23" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_23" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="340.0" layoutY="149.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_24" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_24" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="389.0" layoutY="149.0" prefHeight="58.0" prefWidth="43.0">
+                     <children>
+                        <ImageView fx:id="keyTile_25" fitHeight="58.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Blank.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_25" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="43.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="438.0" layoutY="149.0" prefHeight="58.0" prefWidth="65.0">
+                     <children>
+                        <ImageView fx:id="keyTile_26" fitHeight="58.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Large.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_26" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="65.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="24.0" layoutY="149.0" prefHeight="58.0" prefWidth="65.0">
+                     <children>
+                        <ImageView fx:id="keyTile_27" fitHeight="58.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Assets/Keyboard/Large.png" />
+                           </image>
+                        </ImageView>
+                        <Text fx:id="keyTileText_27" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="65.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+               </children></AnchorPane>
+         </bottom>
+         <top>
+            <AnchorPane prefHeight="100.0" prefWidth="520.0" BorderPane.alignment="CENTER">
+               <children>
+                  <StackPane fx:id="toasterPane" layoutX="186.0" layoutY="26.0" prefHeight="50.0" prefWidth="148.0">
+                     <children>
+                        <ImageView fx:id="ToasterImage" fitHeight="50.0" fitWidth="148.0" pickOnBounds="true" preserveRatio="true" />
+                        <Text fx:id="ToasterText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="148.0">
+                           <font>
+                              <Font name="System Bold" size="16.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </StackPane>
+               </children></AnchorPane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
